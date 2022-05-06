@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cats-land</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <h1>CATS-LAND</h1>
+        <img
+          src="https://images.pexels.com/photos/774731/pexels-photo-774731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="cats"
+          style="width: 110px"
+        />
+      </div>
+      <div class="container">
+        <div class="left-content">
+          <h4>
+            <strong>Cats from API</strong> (<a
+              style="text-decoration: none; color: rgb(68, 138, 235)"
+              href="https://cat-fact.herokuapp.com/facts/random?animal_type=cat&amount=10"
+              >CLICK HERE</a
+            >)
+          </h4>
+          <ol id="list"></ol>
+        </div>
+        <div class="middle-content">
+          <h4>
+            Local Cats (<i
+              style="color: rgb(57, 179, 254); font-size: 15px"
+              class="fa-solid fa-arrow-left back-list"
+            ></i>
+            add a cat fact
+            <i
+              style="color: rgb(57, 179, 254); font-size: 15px"
+              class="fa-solid fa-arrow-right fav-list"
+            ></i>
+            )
+          </h4>
+          <ol id="added-list"></ol>
+        </div>
+        <div class="right-content">
+          <input id="input" type="text" placeholder="Add cats facts" />
+          <button id="add-btn">ADD</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

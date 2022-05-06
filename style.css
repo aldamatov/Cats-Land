@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color:white;
+    font-size: 20px;
+}
+img{
+    border-radius: 50%;
+}
+.main {
+    width: 100%;
+    margin: 0;
+    padding: 20px 10px;
+    background-color: rgb(58, 191, 217);
+    height: 100%;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 500px;
+    margin: auto;
+}
+.header h1 {
+    padding: 15px 10px;
+    font-size: 40px;
+   
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 88vh;
+    padding-bottom: 10px;
+}
+.container .left-content, .middle-content, .right-content {
+    border: 1px solid rgb(255, 255, 255);
+    height: 98%;
+    margin: 10px;
+}
+.container .left-content, .middle-content {
+    background-color: rgb(16, 38, 44);
+}
+.left-content {
+    overflow-y: scroll;
+}
+.middle-content {
+    overflow-y: scroll;
+}
+.left-content h4 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.left-content #list {
+    list-style: none;
+}
+.left-content ol li{
+    border: 1px solid rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    line-height: 22px;
+}
+.middle-content h4 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.middle-content ol li {
+    border: 1px solid rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    line-height: 22px;
+    margin: 20px;
+}
+.middle-content #added-list {
+    list-style: none;
+}
+.middle-content #added-list li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.middle-content #added-list li p {
+    flex-basis: 80%;
+}
+#added-list .fa-heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 33, 33);
+    color: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#added-list .fa-heart:hover {
+    background-color: rgb(117, 113, 113);
+}
+#added-list .fa-trash-can {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#added-list .fa-trash-can:hover {
+    background-color: rgb(109, 17, 17);
+}
+.right-content #input {
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+    line-height: 30px;
+    font-size: 17px;
+    margin: 0 5%;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+}
+.right-content #add-btn {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(23, 36, 44);
+    color: beige;
+    border: 3px solid rgb(201, 212, 222);
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 150px;
+}
+.right-content #add-btn:hover {
+    background-color: rgb(15, 155, 242);
+    color: black;
+}
