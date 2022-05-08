@@ -40,7 +40,7 @@ addBtn.addEventListener("click", function () {
   }
   let textInput = input.value;
   let textHtml = `
-    <li id='added'>
+    <li id='Added'>
     <p>${textInput}</p>
     <i class="fa-solid fa-heart"></i>
     <i class="fa-solid fa-trash-can"></i>
@@ -81,9 +81,9 @@ favList.addEventListener("click", () => {
 
 backList.addEventListener("click", () => {
   addedList.innerHTML = "";
-  for (let i in element) {
-    if (!element[i]) {
-      addedList.innerHTML += element[i];
+  for (let el in element) {
+    if (!element[el]) {
+      addedList.innerHTML += element[el];
     }
   }
 });
