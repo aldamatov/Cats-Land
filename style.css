@@ -36,12 +36,12 @@ img{
     padding-bottom: 10px;
 }
 .container .left-content, .middle-content, .right-content {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(162, 54, 54);
     height: 98%;
     margin: 10px;
 }
 .container .left-content, .middle-content {
-    background-color: rgb(16, 38, 44);
+    background-color: rgb(46, 71, 78);
 }
 .left-content {
     overflow-y: scroll;
@@ -58,7 +58,7 @@ img{
     list-style: none;
 }
 .left-content ol li{
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(120, 80, 80);
     margin: 20px;
     border-radius: 20px;
     padding: 20px;
@@ -70,7 +70,7 @@ img{
     margin-bottom: 20px;
 }
 .middle-content ol li {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(141, 114, 114);
     margin: 5px;
     border-radius: 20px;
     padding: 10px 20px;
@@ -92,8 +92,8 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 33, 33);
-    color: rgb(255, 255, 255);
+    background-color: rgb(113, 38, 38);
+    color: rgb(196, 159, 159);
     width: 40px;
     height: 40px;
     border-radius: 5px;
@@ -107,7 +107,7 @@ img{
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 0, 0);
-    color: white;
+    color: rgb(54, 14, 14);
     width: 40px;
     height: 40px;
     border-radius: 5px;
@@ -132,7 +132,7 @@ img{
     font-size: 20px;
     margin-top: 10px;
     border-radius: 20px;
-    background-color: rgb(23, 36, 44);
+    background-color: rgb(27, 82, 117);
     color: beige;
     border: 3px solid rgb(201, 212, 222);
     width: 100px;
